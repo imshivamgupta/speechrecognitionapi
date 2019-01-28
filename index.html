@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voice App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6 mx-auto">
+                <a href="#" class="btn btn-sm animated-button thar-one">
+                    <i class="fa fa-microphone" aria-hidden="true"></i> Start Teaming</a>
+            </div>
+            <!-- <div class="col-6">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%"></div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <main class="container-fluid mt-4">
+        <div class="row text-white" id="wrapper">
+            <!-- Team 1 -->
+            <div class="col-6">
+                <div class="card mb-4" style="min-height:300px;">
+                    <div class="card-header">Team Alpha</div>
+                    <div class="card-body">
+                        <div class="row" id="alpha"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team 2 -->
+            <div class="col-6">
+                <div class="card mb-3" style="min-height:300px;">
+                    <div class="card-header">Team Bravo</div>
+                    <div class="card-body">
+                        <div class="row" id="bravo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-fluid">
+        <h4 class="text-center mb-3">Available Player's</h4>
+        <div class="row" id="players">
+            <div class="col-1 mx-auto">
+                <div class="person">
+                    <img class="profile-img" src="./img/10.png" alt="">
+                    <p class="text-center">Shivam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
